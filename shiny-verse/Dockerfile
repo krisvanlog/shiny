@@ -20,6 +20,14 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
     remotes \
     selectr \
     caTools \
+    shiny \
+    argonR \ 
+    argonDash \
+    shinyWidgets \
+    tidyquant \
+    highcharter \
+    shinybusy \
+    bslib \
 	BiocManager \
   && rm -rf /tmp/downloaded_packages
 
